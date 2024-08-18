@@ -1,13 +1,13 @@
 import React from 'react';
-
-
-
-
-
+import AuthForm from './components/auth';
+import { Router } from 'react-router-dom';
 
 function App() {
     return (
         <>
+       
+        <AuthForm/>
+
      
      
         </>
@@ -16,3 +16,4 @@ function App() {
 }
 
 export default App;
+
